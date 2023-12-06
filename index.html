@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <script src="./JS/funciones.js"></script>
+    <title>Stephen Curry</title>
+</head>
+<body>
+
+<!-- Div de wrapper ------------------------------------------->
+    <div id="wrapper">
+        <nav>
+
+<!-- Barra de navegación--------------------------------------->
+            <div class="topnav" id="myTopnav">
+                    <a href="#" class="active">Stephen Curry</a>
+                    <a href="#introduccion">Introduccion</a>
+                    <a href="#Trayectoria">Trayectoria</a>
+                    <a href="#Palmares">Palmares</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
+                  </nav>
+
+
+<!-- HERO SECTION ---------------------------------------->
+
+        <section id="hero">
+
+            <div class="grid-hero">
+            <div id="hero1" onmouseover="zoomBackground(true); " onmouseout="zoomBackground(false); "  >
+                Stephen<br>Curry
+            </div>
+            
+            </div>
+
+            <div id="boton" >
+                <a href="#introduccion" id="referencia">
+                Leer mas
+            </a>
+            </div>
+
+        </section>
+
+
+<!-- SECCION INTRODUCCION --------------------------------------------------------------->
+        <section id="introduccion">
+            <div class="titulos">
+                INTRODUCCION
+            </div>
+            <div class="intro">
+                
+                
+                
+                <div id="headertitulo" onclick="mostrarinfo(); cambiardisplay(); etiquetacerrar()"  >
+                 <h1>Quien es Steph Curry</h1>
+                 <div id="imgintro">
+                    <img src="./img/Introimgcorte.jpg" alt="">
+                    </div>
+                    <div id="clickintro">Haz click para desplegar la información <br> <i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+                </div>
+            
+                
+
+            </div>
+            <div id="separacionintro"></div>
+            <div id="infoadicional">
+                    <div class="infoadicional-grid" id="infoadicional-grid-1"><h1 class="titulo-infoadicional">Informacion personal</h1><p class="texto">Wardell Stephen Curry, es un jugador de baloncesto Estadounidense <br> Nacido el 14 de Marzo de 1988 en Akron, Ohio, Estados unidos Hijo del exjugador profesional de baloncesto "Dell Curry" y de Sydel Curry  Hermano del jugador profesional de baloncesto "Seth Curry" Su actual pareja es Ayesha Curry con la cual ha tenido 3 hijos, Riley de 11 años, Ryan de 8 años y Canon de 5 años</p>
+                    <img src="./img/familiacurry.jpg" alt=""></div>
+                    <div class="infoadicional-grid" id="infoadicional-grid-1"><h1 class="titulo-infoadicional">Informacion profesional</h1><p class="texto"> Jugó en el equipo universitario de baloncesto de Davidson, desde el año 2006 hasta el año 2009, en el cual fue Drafteado para la NBA ("Liga profesional de baloncesto de Estados Unidos") por el equipo Golden State Warriors, de la ciudad de San Francisco, en el cual sigue jugando en la actualidad <br> En este equipo se ha consagrado como una leyenda del baloncesto, especializado en el lanzamiento exterior y en el liderazgo ofensivo de su equipo <br> También ha sido seleccionado para jugar con el equipo nacional de EEUU</p>
+                    <img src="./img/universidadcurry.jpg" alt=""></div>
+                </div>
+            <div id="cerrarinfo" onclick="mostrarinfo(); cambiardisplay() ;etiquetacerrar()"">
+                <i class="fa fa-sort-asc" aria-hidden="true"></i> <br>
+                <i class="fa fa-times-circle" aria-hidden="true" ></i>
+            </div>
+        </section>
+
+<!-- SECCION TRAYECTORIA ----------------------------------------------->
+        <section id="Trayectoria" >
+            <div class="titulos">
+                TRAYECTORIA
+            </div>
+            <DIV class="carrerawrapper">
+
+                <div class="carreragrid" id="carrerauni" onclick="trayunicerrar(); cerrartraynba()">
+                    <div class="titulocarrera"><h1>Trayectoria Universitaria</h1><div class="imagencarrera"><img src="./img/curryuni.jpg" alt=""></div><div id="clickintro">Haz click para desplegar la información <br> <i class="fa fa-sort-desc" aria-hidden="true"></i></div></div>
+                    
+                </div>
+                <div class="carreragrid" id="carreranba" onclick="traynbacerrar();  cerrartrayuni();">
+                    <div class="titulocarrera"><h1>Trayectoria <br>NBA</h1><div class="imagencarrera"><img src="./img/warriorscurry.jpg" alt=""></div><div id="clickintro">Haz click para desplegar la información <br> <i class="fa fa-sort-desc" aria-hidden="true"></i></div></div>
+                </div>
+                
+            </DIV>
+            
+
+
+<!-- INFORMACION ADICIONAL DE LA CARRERA NBA ---------------------------->
+                <div id="adicionalnbawrapper">
+                    <div id="carreranba-adicional">
+                        <div class="carrerauni-adicional-titulo">Trayectoria NBA</div>
+                        <div class="annos-grid">
+                            <div class="annos">
+                                <div class="titulo-annos" onclick="tabla09function()">2009-10 </div>
+                                
+                                <div class="info-annos"id="tabla09">
+                                    <table class="tabla" >
+                                        <tr>
+                                            <th class="tabla-1">Equipo</th>
+                                            <th>Golden State Warriors</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Partidos Jugados</th>
+                                            <th>80</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Puntos por partido</th>
+                                            <th>17.5</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Rebotes por partido</th>
+                                            <th>4.5</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Asistencias por partido</th>
+                                            <th>5.9</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Robos por partido</th>
+                                            <th>1.9</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Tapones por partido</th>
+                                            <th>0.2</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <i class="fa fa-window-maximize" aria-hidden="true" id="botonmaximizar" onclick="tabla09function()"></i>
+                            </div>
+                            <div class="annos">
+                                <div class="titulo-annos" onclick="tabla10function()">2010-11 </div>
+                                
+                                <div class="info-annos"id="tabla10">
+                                    <table class="tabla" >
+                                        <tr>
+                                            <th class="tabla-1">Equipo</th>
+                                            <th>Golden State Warriors</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Partidos Jugados</th>
+                                            <th>74</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Puntos por partido</th>
+                                            <th>18.6</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Rebotes por partido</th>
+                                            <th>3.9</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Asistencias por partido</th>
+                                            <th>5.9</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Robos por partido</th>
+                                            <th>1.5</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Tapones por partido</th>
+                                            <th>0.3</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <i class="fa fa-window-maximize" aria-hidden="true" id="botonmaximizar" onclick="tabla10function()"></i>
+                            </div>
+                            <div class="annos">
+                                <div class="titulo-annos" onclick="tabla11function()">2011-12 </div>
+                                
+                                <div class="info-annos"id="tabla11">
+                                    <table class="tabla" >
+                                        <tr>
+                                            <th class="tabla-1">Equipo</th>
+                                            <th>Golden State Warriors</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Partidos Jugados</th>
+                                            <th>26</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Puntos por partido</th>
+                                            <th>14.7</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Rebotes por partido</th>
+                                            <th>3.4</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Asistencias por partido</th>
+                                            <th>5.3</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Robos por partido</th>
+                                            <th>1.5</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Tapones por partido</th>
+                                            <th>0.3</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <i class="fa fa-window-maximize" aria-hidden="true" id="botonmaximizar" onclick="tabla11function()"></i>
+                            </div>
+                            <div class="annos">
+                                <div class="titulo-annos" onclick="tabla12function()">2012-13</div>
+                                
+                                <div class="info-annos"id="tabla12">
+                                    <table class="tabla" >
+                                        <tr>
+                                            <th class="tabla-1">Equipo</th>
+                                            <th>Golden State Warriors</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Partidos Jugados</th>
+                                            <th>78</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Puntos por partido</th>
+                                            <th>22.9</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Rebotes por partido</th>
+                                            <th>4.0</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Asistencias por partido</th>
+                                            <th>6.9</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Robos por partido</th>
+                                            <th>1.6</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Tapones por partido</th>
+                                            <th>0.2</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <i class="fa fa-window-maximize" aria-hidden="true" id="botonmaximizar" onclick="tabla12function()"></i>
+                            </div>
+                            <div class="annos">
+                                <div class="titulo-annos" onclick="tabla13function()">2013-14 </div>
+                                
+                                <div class="info-annos"id="tabla13">
+                                    <table class="tabla" >
+                                        <tr>
+                                            <th class="tabla-1">Equipo</th>
+                                            <th>Golden State Warriors</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Partidos Jugados</th>
+                                            <th>78</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Puntos por partido</th>
+                                            <th>24.0</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Rebotes por partido</th>
+                                            <th>4.3</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Asistencias por partido</th>
+                                            <th>8.5</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Robos por partido</th>
+                                            <th>1.6</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Tapones por partido</th>
+                                            <th>0.2</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <i class="fa fa-window-maximize" aria-hidden="true" id="botonmaximizar" onclick="tabla13function()"></i>
+                            </div>
+                            <div class="annos">
+                                <div class="titulo-annos" onclick="tabla14function()">2014-15 </div>
+                                
+                                <div class="info-annos"id="tabla14">
+                                    <table class="tabla" >
+                                        <tr>
+                                            <th class="tabla-1">Equipo</th>
+                                            <th>Golden State Warriors</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Partidos Jugados</th>
+                                            <th>80</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Puntos por partido</th>
+                                            <th>23.8</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Rebotes por partido</th>
+                                            <th>4.3</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Asistencias por partido</th>
+                                            <th>7.7</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Robos por partido</th>
+                                            <th>2.0</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Tapones por partido</th>
+                                            <th>0.2</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <i class="fa fa-window-maximize" aria-hidden="true" id="botonmaximizar" onclick="tabla14function()"></i>
+                            </div>
+                            <div class="annos">
+                                <div class="titulo-annos" onclick="tabla15function()">2015-16 </div>
+                                
+                                <div class="info-annos"id="tabla15">
+                                    <table class="tabla" >
+                                        <tr>
+                                            <th class="tabla-1">Equipo</th>
+                                            <th>Golden State Warriors</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Partidos Jugados</th>
+                                            <th>79</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Puntos por partido</th>
+                                            <th>30.1</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Rebotes por partido</th>
+                                            <th>5.4</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Asistencias por partido</th>
+                                            <th>6.7</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Robos por partido</th>
+                                            <th>2.1</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Tapones por partido</th>
+                                            <th>0.2</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <i class="fa fa-window-maximize" aria-hidden="true" id="botonmaximizar" onclick="tabla15function()"></i>
+                            </div>
+                            <div class="annos">
+                                <div class="titulo-annos" onclick="tabla16function()">2016-17 </div>
+                                
+                                <div class="info-annos"id="tabla16">
+                                    <table class="tabla" >
+                                        <tr>
+                                            <th class="tabla-1">Equipo</th>
+                                            <th>Golden State Warriors</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Partidos Jugados</th>
+                                            <th>79</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Puntos por partido</th>
+                                            <th>25.3</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Rebotes por partido</th>
+                                            <th>4.5</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Asistencias por partido</th>
+                                            <th>6.6</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Robos por partido</th>
+                                            <th>1.8</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Tapones por partido</th>
+                                            <th>0.2</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <i class="fa fa-window-maximize" aria-hidden="true" id="botonmaximizar" onclick="tabla16function()"></i>
+                            </div>
+                            <div class="annos">
+                                <div class="titulo-annos" onclick="tabla17function()">2017-18 </div>
+                                
+                                <div class="info-annos"id="tabla17">
+                                    <table class="tabla" >
+                                        <tr>
+                                            <th class="tabla-1">Equipo</th>
+                                            <th>Golden State Warriors</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Partidos Jugados</th>
+                                            <th>51</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Puntos por partido</th>
+                                            <th>26.4</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Rebotes por partido</th>
+                                            <th>5.1</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Asistencias por partido</th>
+                                            <th>6.1</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Robos por partido</th>
+                                            <th>1.6</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Tapones por partido</th>
+                                            <th>0.2</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <i class="fa fa-window-maximize" aria-hidden="true" id="botonmaximizar" onclick="tabla17function()"></i>
+                            </div>
+                            <div class="annos">
+                                <div class="titulo-annos" onclick="tabla18function()">2018-19</div>
+                                
+                                <div class="info-annos"id="tabla18">
+                                    <table class="tabla" >
+                                        <tr>
+                                            <th class="tabla-1">Equipo</th>
+                                            <th>Golden State Warriors</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Partidos Jugados</th>
+                                            <th>69</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Puntos por partido</th>
+                                            <th>27.3</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Rebotes por partido</th>
+                                            <th>5.3</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Asistencias por partido</th>
+                                            <th>5.2</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Robos por partido</th>
+                                            <th>1.3</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Tapones por partido</th>
+                                            <th>0.4</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <i class="fa fa-window-maximize" aria-hidden="true" id="botonmaximizar" onclick="tabla18function()"></i>
+                            </div>
+                            <div class="annos">
+                                <div class="titulo-annos" onclick="tabla19function()">2019-20 </div>
+                                
+                                <div class="info-annos"id="tabla19">
+                                    <table class="tabla" >
+                                        <tr>
+                                            <th class="tabla-1">Equipo</th>
+                                            <th>Golden State Warriors</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Partidos Jugados</th>
+                                            <th>5</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Puntos por partido</th>
+                                            <th>20.8</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Rebotes por partido</th>
+                                            <th>5.2</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Asistencias por partido</th>
+                                            <th>6.6</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Robos por partido</th>
+                                            <th>1.0</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Tapones por partido</th>
+                                            <th>0.4</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <i class="fa fa-window-maximize" aria-hidden="true" id="botonmaximizar" onclick="tabla19function()"></i>
+                            </div>
+                            <div class="annos">
+                                <div class="titulo-annos" onclick="tabla20function()">2020-21 </div>
+                                
+                                <div class="info-annos"id="tabla20">
+                                    <table class="tabla" >
+                                        <tr>
+                                            <th class="tabla-1">Equipo</th>
+                                            <th>Golden State Warriors</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Partidos Jugados</th>
+                                            <th>63</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Puntos por partido</th>
+                                            <th>32.0</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Rebotes por partido</th>
+                                            <th>5.5</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Asistencias por partido</th>
+                                            <th>5.8</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Robos por partido</th>
+                                            <th>1.2</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Tapones por partido</th>
+                                            <th>0.1</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <i class="fa fa-window-maximize" aria-hidden="true" id="botonmaximizar" onclick="tabla20function()"></i>
+                            </div>
+                            <div class="annos">
+                                <div class="titulo-annos" onclick="tabla21function()">2021-22</div>
+                                
+                                <div class="info-annos"id="tabla21">
+                                    <table class="tabla" >
+                                        <tr>
+                                            <th class="tabla-1">Equipo</th>
+                                            <th>Golden State Warriors</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Partidos Jugados</th>
+                                            <th>64</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Puntos por partido</th>
+                                            <th>25.5</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Rebotes por partido</th>
+                                            <th>5.2</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Asistencias por partido</th>
+                                            <th>6.3</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Robos por partido</th>
+                                            <th>1.3</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Tapones por partido</th>
+                                            <th>0.4</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <i class="fa fa-window-maximize" aria-hidden="true" id="botonmaximizar" onclick="tabla21function()"></i>
+                            </div>
+                            <div class="annos">
+                                <div class="titulo-annos" onclick="tabla22function()">2022-23 </div>
+                                
+                                <div class="info-annos"id="tabla22">
+                                    <table class="tabla" >
+                                        <tr>
+                                            <th class="tabla-1">Equipo</th>
+                                            <th>Golden State Warriors</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Partidos Jugados</th>
+                                            <th>56</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Puntos por partido</th>
+                                            <th>29.4</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Rebotes por partido</th>
+                                            <th>6.1</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Asistencias por partido</th>
+                                            <th>6.3</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Robos por partido</th>
+                                            <th>0.9</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Tapones por partido</th>
+                                            <th>0.4</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <i class="fa fa-window-maximize" aria-hidden="true" id="botonmaximizar" onclick="tabla22function()"></i>
+                            </div>
+                            <div class="annos">
+                                <div class="titulo-annos" onclick="tabla23function()">2023-24 </div>
+                                
+                                <div class="info-annos"id="tabla23">
+                                    <table class="tabla" >
+                                        <tr>
+                                            <th class="tabla-1">Equipo</th>
+                                            <th>Golden State Warriors</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Partidos Jugados</th>
+                                            <th>18</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Puntos por partido</th>
+                                            <th>29.1</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Rebotes por partido</th>
+                                            <th>5.0</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Asistencias por partido</th>
+                                            <th>4.7</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Robos por partido</th>
+                                            <th>0.9</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Tapones por partido</th>
+                                            <th>0.4</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <i class="fa fa-window-maximize" aria-hidden="true" id="botonmaximizar" onclick="tabla23function()"></i>
+                            </div>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                    <div id="botoncerrarnba" onclick="traynbacerrar()">
+                        <i class="fa fa-sort-asc" aria-hidden="true"></i> <br>
+                        <i class="fa fa-times-circle" aria-hidden="true" ></i>
+                        </div>
+            </div>
+
+            <!-- INFORMACION ADICIONAL DE LA CARRERA UNIVERSITARIA -------------------------------->
+            <div id="adicionalcarrerawrapper">
+                <div id="carrerauni-adicional"> 
+                    <div class="carrerauni-adicional-titulo">Trayectoria Universitaria</div>
+                        <div class="annos-grid">
+                            <div class="annos">
+                                <div class="titulo-annos">2006-07</div>
+                                <div class="info-annos"> 
+                                    <table class="tabla">
+                                        <tr>
+                                            <th class="tabla-1">Equipo</th>
+                                            <th>Davidson</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Partidos Jugados</th>
+                                            <th>34</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Puntos por partido</th>
+                                            <th>21.5</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Rebotes por partido</th>
+                                            <th>4.6</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Asistencias por partido</th>
+                                            <th>2.8</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Robos por partido</th>
+                                            <th>1.8</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Tapones por partido</th>
+                                            <th>0.2</th>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                            </div>
+                            <div class="annos">
+                                <div class="titulo-annos">2007-08</div>
+                                <div class="info-annos"> 
+                                    <table class="tabla">
+                                        <tr>
+                                            <th class="tabla-1">Equipo</th>
+                                            <th>Davidson</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Partidos Jugados</th>
+                                            <th>36</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Puntos por partido</th>
+                                            <th>25.9</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Rebotes por partido</th>
+                                            <th>4.6</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Asistencias por partido</th>
+                                            <th>2.9</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Robos por partido</th>
+                                            <th>2.0</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Tapones por partido</th>
+                                            <th>0.4</th>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                                
+                            </div>
+                            <div class="annos">
+                                <div class="titulo-annos">2008-09</div>
+                                <div class="info-annos"> 
+                                    <table class="tabla">
+                                        <tr>
+                                            <th class="tabla-1">Equipo</th>
+                                            <th>Davidson</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Partidos Jugados</th>
+                                            <th>34</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Puntos por partido</th>
+                                            <th>28.6</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Rebotes por partido</th>
+                                            <th>4.4</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Asistencias por partido</th>
+                                            <th>5.6</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Robos por partido</th>
+                                            <th>2.5</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="tabla-1">Tapones por partido</th>
+                                            <th>0.2</th>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                                    
+                                </div>
+                            
+                                
+                        </div>
+                        
+                </div>
+                <div id="botoncerrarcarrera" onclick="trayunicerrar()">
+                        <i class="fa fa-sort-asc" aria-hidden="true"></i> <br>
+                        <i class="fa fa-times-circle" aria-hidden="true" ></i>
+                        </div>
+                
+            </div>
+            
+        
+        </section>
+
+        <!-- sección palmares ----------------------------------------------------->
+        
+        <section id="Palmares">
+            <div class="titulos">Palmares</div>
+            <div id="galeriawrapper">
+                
+                <div class="galeriagrid">
+                    <div class="cara frente">
+                        <img src="./img/galeria/2015.jpg" alt="">
+                        <h3>2015 Campeon NBA </h3>
+                    </div>
+                    <div class="cara cruz">
+                        <h3>2015 Champion</h3>
+                        <p>Stephen curry con el trofeo de campeón de la NBA en 2015, donde los Warriors se alzaban con la victoria con un resultado de 4-2 antes los Cavaliers de LeBron James</p>
+                        
+                    </div>
+                </div>
+                <div class="galeriagrid">
+                    <div class="cara frente">
+                        <img src="./img/galeria/MVP2015.jpg" alt="">
+                        <h3>2015 MVP NBA </h3>
+                    </div>
+                    <div class="cara cruz">
+                        <h3>2015 MVP NBA</h3>
+                        <p> Stephen Curry se convierte en el MVP de la temmporada 2014-2015, con 23.8 puntos por partido pero anotando 5 triples por partido en un 50% de acierto</p>
+                    
+                    </div>
+                </div>
+                <div class="galeriagrid">
+                    <div class="cara frente">
+                        <img src="./img/galeria/mvp2016.jpg" alt="">
+                        <h3>2016 MVP NBA </h3>
+                    </div>
+                    <div class="cara cruz">
+                        <h3>2016 MVP NBA</h3>
+                        <p>Stephen Curry se proclama el primer MVP por decisión unánime de la historia de la NBA recibiendo el 100% de los votos de jugardor mas valioso de la temporada 2015-2016</p>
+                    </div>
+                </div>
+                <div class="galeriagrid">
+                    <div class="cara frente">
+                        <img src="./img/galeria/2017.jpg" alt="">
+                        <h3>2017 Campeon NBA </h3>
+                    </div>
+                    <div class="cara cruz">
+                        <h3>2017 Champion</h3>
+                        <p>Los Golden State Warriors ganan la NBA con el resultado de 4-1 enfrentandose de nuevo a su archienemigo deportivo Lebron James, liderando a los Cavaliers</p>
+                        
+                    </div>
+                </div>
+                <div class="galeriagrid">
+                    <div class="cara frente">
+                        <img src="./img/galeria/2018.jpg" alt="">
+                        <h3>2018 Campeon NBA </h3>
+                    </div>
+                    <div class="cara cruz">
+                        <h3>2018 Champion</h3>
+                        <p>De nuevo se repite la historia de las finales enfrentadas entre Warriors y Cavaliers. Los GS Warriors se alzan con la victoria con el resultado de 4-0</p>
+                    
+                    </div>
+                </div>
+                <div class="galeriagrid">
+                    <div class="cara frente">
+                        <img src="./img/galeria/2022.jpg" alt="">
+                        <h3>2022 Campeon NBA </h3>
+                    </div>
+                    <div class="cara cruz">
+                        <h3>2022 Champion</h3>
+                        <p>Los GS Warriors de nuevo coronan en la NBA ganando en las finales a los históricos Celtics, liderados por Jason Tatum, cerrando la serie con un 4-2</p>
+                    </div>
+                </div>
+                <div class="galeriagrid">
+                    <div class="cara frente">
+                        <img src="./img/galeria/finalmvp.jpg" alt="">
+                        <h3>2022 Finals MVP </h3>
+                    </div>
+                    <div class="cara cruz">
+                        <h3>2022 Finals MVP</h3>
+                        <p>Stephen Curry por fin consigue su deseado título de Finals MVP, promediando 31.2 puntos, 6 rebotes y 5 asistencias en los 6 encuentros de estas finales</p>
+                    </div>
+                </div>
+                
+                <div class="galeriagrid">
+                    <div class="cara frente">
+                        <img src="./img/galeria/mvpallstar.webp" alt="">
+                        <h3>2022 All-Star MVP </h3>
+                    </div>
+                    <div class="cara cruz">
+                        <h3>2022 All-Star MVP</h3>
+                        <p>En este redondo año para Steph Curry también se alza con el título de MVP del partido de All-Stars de la NBA, metiendo 16 triples y 50 puntos </p>
+                    </div>
+                </div>
+                
+                <div class="galeriagrid">
+                    <div class="cara frente">
+                        <img src="./img/galeria/3precord.webp" alt="">
+                        <h3>Record Historico Triples </h3>
+                    </div>
+                    <div class="cara cruz">
+                        <h3>Record Historico Triples</h3>
+                        <p> En diciembre de 2021, Stephen Curry logra alcanzar a Ray Allen en número de triples anotados, teniendo este 2977, y se convierte en el mayor triplista de la historia de la NBA</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--FOOTER DE LA PÁGINA ------------------------------------------------------>
+        <footer id="footer">
+
+        <div id="footerwrapper">
+            <div class="footergrid3">
+                <div class="titulogrid">
+                    <i class="fa fa-tasks" aria-hidden="true"></i> Menu <i class="fa fa-tasks" aria-hidden="true"></i>
+                </div>
+                <div class="contenidofooter">
+                    <div class="separacion"></div>
+                    <div class="contenidomenu"><a href="#">Home <br> </a></div>
+                    <div class="separacion"></div>
+                    <div class="contenidomenu"><a href="#introduccion">Introduccion <br> </a></div>
+                    <div class="separacion"></div>
+                    <div class="contenidomenu"><a href="#Trayectoria">Trayectoria <br> </a></div>
+                    <div class="separacion"></div>
+                    <div class="contenidomenu"><a href="#Palmares">Palmares <br> </a></div>
+                    <div class="separacion"></div>
+                    
+                </div>
+            </div>
+            <div class="footergrid3">
+                <div class="titulogrid">
+                    <i class="fa fa-address-card" aria-hidden="true"></i> Contacto <i class="fa fa-address-card" aria-hidden="true"></i>
+                </div>
+                <div class="contenidofooter">
+                    <div class="separacion"></div>
+                    <a class="iconos" target="_blank" href="//www.instagram.com/stephencurry30/?hl=es"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+                    <div class="separacion"></div>
+                    <a class="iconos" target="_blank" href="https://twitter.com/stephencurry30?lang=es"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a>
+                    <div class="separacion"></div>
+                    <a href="https://www.facebook.com/StephenCurryOfficial/" class="iconos" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</a>
+                    <div class="separacion"></div>
+                    <a class="iconos" target="_blank" href="https://www.nba.com/warriors/tickets/season"><i class="fa fa-ticket" aria-hidden="true"></i> Comprar Entradas</a>
+                    <div class="separacion"></div>
+                    <a class="iconos" target="_blank" href="https://shop.warriors.com/"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Comprar Merchandising </a>
+                    <div class="separacion"></div>
+                </div>       
+            </div>
+            <div class="footergrid3">
+                <div class="titulogrid">
+                    <i class="fa fa-info-circle" aria-hidden="true"></i> Hecho por: <i class="fa fa-info-circle" aria-hidden="true"></i></div>
+                 <div class="contenidofooter">
+                    <div class="separacion"></div>
+                    <a class="iconos" target="_blank" href="https://github.com/alexbm23"><i class="fa fa-github-square" aria-hidden="true"></i> GitHub</a>
+                    <div class="separacion"></div>
+                    <a class="iconos" target="_blank" href="https://www.instagram.com/alexbm239/"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+                    <div class="separacion"></div>
+                    <a class="iconos" target="_blank" href="https://www.twitter.com/alexbm239"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a>
+                    <div class="separacion"></div>
+                    <a class="iconos" target="_blank" href="https://gmail.google.com"><i class="fa fa-envelope" aria-hidden="true"></i> Gmail</a>
+                </div>
+                
+            
+            </div>
+        </div>
+        </footer>
+
+
+
+    </div>
+    
+</body>
+</html>
